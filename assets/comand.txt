@@ -1,0 +1,8 @@
+information 04_04_2023 
+
+.row>.col*3 = para formatar 3 colunas col auto
+
+.row>.col-md-4.order-sm-$*3 -- order serve para manipular a order, $ pega o indice
+
+
+col-sm-4 offset-sm-4" -- cria espaços com espaço de colunas

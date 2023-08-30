@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/example.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-success" role="alert">
+            Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Eos aspernatur doloribus, 
+            accusamus quam omnis animi cumque voluptatibus, 
+            facere culpa voluptates soluta quo? Ut aliquam 
+            voluptate rerum dolorem cumque quos iure?
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+                <div class="alert alert-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem facere modi nam eum accusantium eaque aspernatur, earum tenetur ex fugiat natus unde officiis, amet voluptatibus non id! Dignissimos, est!
+                </div>
+
+
+            </div>
+            <div class="col">
+
+                <div class="alert alert-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem facere modi nam eum accusantium eaque aspernatur, earum tenetur ex fugiat natus unde officiis, amet voluptatibus non id! Dignissimos, est!
+                </div>
+
+            </div>
+
+            <div class="ROW">
+                    <div class="col-sm">
+                       <div class="alert alert-danger">
+                         ERROR !!!
+                       </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="alert alert-warning">
+                            WARNING!!
+                        </div>
+                    </div>
+
+                    .
+            </div>
+
+        </div>
+
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa esse, quos sunt, perferendis blanditiis a autem error sapiente doloribus placeat consectetur tempora facilis numquam sit corrupti cumque quo est deleniti.lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi pariatur delectus eligendi ipsam molestias iusto libero obcaecati eaque esse possimus? Laborum dolor necessitatibus, ea illo suscipit unde maiores nulla sint!
+            <button class="close" data-dismiss="alert"aria-label="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="alert alert-info">
+            Information!!!
+            <a href="https://youtube.com">Youtube</a>
+        </div>
+
+        <div class="alert alert-dark">
+            <h4>Título</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima voluptatum cumque fugiat officiis architecto dignissimos delectus neque, reprehenderit veritatis illum debitis quod vel officia quia. Fugit sapiente illo repellendus.</p>
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi neque deleniti in debitis expedita optio dolorum ipsa incidunt maiores maxime eaque dolor id libero voluptatum culpa cupiditate, mollitia aut qui!</p>
+        </div>
+
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum neque quibusdam nihil hic pariatur tempora, optio nesciunt illo, vitae aspernatur voluptas rem voluptate vero consequuntur ad voluptatibus odio doloremque nobis!
+            <button class="close"
+                data-dismiss="alert"
+                aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <button id="btn-close-all" type="button">Fechar todos os alertas</button>
+
+    </div>
+    <script src="../bootstrap/assets/js/jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(()=>{
+
+            $('#btn-close-all').on('click', e => {
+                $("alert").alert('close');
+            });
+        });
+    </script>
+</body>
+</html>

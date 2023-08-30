@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/exemplo8.css"> -->
+</head>
+<body>
+
+    <div class="container">
+        
+      <div class="accordion" id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link btn-block"
+                type="button" data-toggle="collapse" 
+                data-target="#1">
+                    1 Nivel
+                </button>
+            </div>
+            <div id="1" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem enim dolore asperiores dolor optio dolorem quas reiciendis illum vero sit itaque cupiditate accusantium voluptatibus animi et quod, ipsam tenetur exercitationem.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link btn-block"
+                type="button" data-toggle="collapse" 
+                data-target="#2">
+                    2 Nivel
+                </button>
+            </div>
+            <div id="2" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem enim dolore asperiores dolor optio dolorem quas reiciendis illum vero sit itaque cupiditate accusantium voluptatibus animi et quod, ipsam tenetur exercitationem.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link btn-block"
+                type="button" data-toggle="collapse" 
+                data-target="#3">
+                    3 Nivel
+                </button>
+            </div>
+            <div id="3" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem enim dolore asperiores dolor optio dolorem quas reiciendis illum vero sit itaque cupiditate accusantium voluptatibus animi et quod, ipsam tenetur exercitationem.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+        
+      
+        
+    </div>
+    
+
+
+    
+   
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/exemplo6.css">
+</head>
+<body>
+    
+
+    <div class="coontainer">
+        <div class="alert alert-success" role="alert">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repudiandae tenetur nulla animi dicta. Vero delectus quod fugiat pariatur accusantium minus, aliquam fugit repellat, asperiores expedita tempora doloribus vitae distinctio.
+        </div>
+    </div>
+
+    <div class="coontainer">
+        <div class="alert alert-secondary" role="alert">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repudiandae tenetur nulla animi dicta. Vero delectus quod fugiat pariatur accusantium minus, aliquam fugit repellat, asperiores expedita tempora doloribus vitae distinctio.
+        </div>
+    </div>
+
+    <div class="coontainer">
+        <div class="col.md-6 col-12">
+            <div class="alert alert-primary" role="alert">
+                Lorem ipmi dicta. Vero delectus quod fugiat pariatur accusantium minus, aliquam fugit repellat, asperiores expedita tempora doloribus vitae distinctio.
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="row">
+        <div class="col-sm">
+            <div class="alert alert-danger">
+                Error!!!
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="alert alert-warning">
+                Error!!!
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-info">
+        Information
+        <a href="http://youtube.com/hcodebrasil">youtube</a>
+    </div>
+
+    <div class="alert alert-dark">
+        <h4>Titulo</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium autem modi eaque, recusandae eos porro ipsa voluptate, quidem quas sunt dolore nam quasi mollitia, est fuga numquam sed ullam ex.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias porro esse tempore non alias accusamus, eaque laboriosam! Aperiam voluptates odit tempore minus voluptatum repellat excepturi. Adipisci, expedita. Nulla, voluptas deleniti.</p>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, rerum. Quae voluptate voluptas suscipit!
+                <button class="close" 
+                data-dismiss="alert" 
+                aria-label="close">
+                <span aria-hidden="true"></span> &times;</ span>
+                </button>
+    
+            </div>
+
+        </div>
+
+       
+    </div>
+
+    <button id="btn-close-all" type="button">Fechar todos os alertas</button>
+
+    
+    
+
+
+    
+   
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        $(()=>{
+            $('#btn-close-all').on('click',e=>{
+                $('.alert').alert('close');
+            })
+        })
+    </script>
+
+
+    
+</body>
+</html>

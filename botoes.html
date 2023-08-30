@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/exemplo6.css">
+</head>
+<body>
+    
+
+    <div class="coontainer">
+        <div class="row">
+            <div class="col">
+                <br>
+                <button class="btn btn-primary">OK</button>
+                <button class="btn btn-secondary">OK</button>
+                <button class="btn btn-success">OK</button>
+                <button class="btn btn-danger">OK</button>
+                <button class="btn btn-warning">OK</button>
+                <button class="btn btn-info">OK</button>
+                <button class="btn btn-dark">OK</button>
+                <button class="btn btn-light">OK</button>
+                <button class="btn btn-link">OK</button>
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary btn-block">ok</button>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col"><button class="btn btn-primary btn-block">OK</button›</div›
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col"><button class="btn btn-success" id="btn-auto-save" data-toggle="button">Auto Save</button></div>
+    
+    <span class="badge badge-primary">1</span>
+    <span class="badge badge-primary">2</span>
+    <span class="badge badge-primary">3</span>
+    <span class="badge badge-primary">4</span>
+    <span class="badge badge-primary">5</span>
+    <span class="badge badge-primary">6</span>
+    <span class="badge badge-primary">7</span>
+    <span class="badge badge-primary">8</span>
+    
+     </div>
+
+    <span class="badge badge-primary">ok</span>
+    <span class="badge badge-primary badge-pill">ok</span>
+
+    <div class="row">
+        <div class="col">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label for="" class="btn btn-secodary "><input type="radio" name="option" id="option1" checked></label> 1
+                <label for="" class="btn btn-secodary"><input type="radio" name="option" id="option2"></label> 2
+                <label for="" class="btn btn-secodary"><input type="radio" name="option" id="option3"></label> 3
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary">Caixa de Entrada <span class="badge badge-light">5</span>
+    </button>
+        
+
+    
+    
+
+
+    
+   
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        $(()=>{
+            $('#btn-close-all').on('click',e=>{
+                $('.alert').alert('close');
+            })
+        })
+    </script>
+
+
+    
+</body>
+</html>

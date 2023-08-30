@@ -1,0 +1,37 @@
+
+
+.row > .col,
+.row > .col-3 {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    min-height: 82vh;
+    background-color: #EDEDED;
+    border: 0.1px solid #edededc2;
+}
+
+.navbar> .container-fluid
+{
+    background-color:  #ec965c;
+}
+
+
+.navbar> .container-fluid> .navbar-brand
+{
+    margin-left: 8rem;
+}
+
+.footer> .container-fluid> .d-flex
+{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #454545;
+    border: 0.1px solid #454545a2;
+    min-height: 25vh;
+    
+}
+
+.footer> .container-fluid> .row> .col-sm-3
+{
+    margin-left: 15rem;
+}
+

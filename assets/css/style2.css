@@ -1,0 +1,43 @@
+body{
+
+    background-color: aquamarine;
+}
+
+header ,nav, main{
+    background-color: azure;
+    min-height: 10vh;
+    margin: 2vh auto;
+}
+
+nav,main {
+    min-height: 82vh;
+}
+
+
+
+
+@media (min-width: 576px) {
+    
+    
+
+}
+
+
+@media (min-width: 768px) {
+
+   
+
+}
+
+
+@media (min-width: 992px) {
+
+   
+}
+
+
+@media (min-width: 1200px) {
+
+   
+
+}

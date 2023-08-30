@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+  
+</head>
+<body>
+    
+
+
+
+        <h1>Leonardo <span class="badge badge-">Novo</span></h1>
+
+
+       
+        
+        <button type="button" class="btn btn-primary">Clique Aqui<span class="badge bg-light">0</span></button>
+    
+    
+        <hr>
+
+        <button id="btn-click" type="button" class="btn btn-primary">
+            Caixa de Entrada <span class="badge bg-dark">5</span>
+            
+        
+        </button>
+
+        <hr>
+
+        <span class="badge bg-primary">1</span>
+        <span class="badge bg-secondary">2</span>
+        <span class="badge bg-success">3</span>
+        <span class="badge bg-danger">4</span>
+        <span class="badge bg-warning">5</span>
+        <span class="badge bg-info">6</span>
+        <span class="badge bg-dark">7</span>
+        <span class="badge bg-light">8</span>
+        <span class="badge bg-primary ">8888</span>
+        <span class="badge bg-primary bg-pill">8888</span>
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        $(()=>{
+            $('#btn-click').on('click',e=>{
+                const valor = parseInt($(e.target).find('.badge').text());
+
+                $(e.target).find('.badge').text(valor+1)
+
+            })
+        })
+    </script>
+
+
+    
+
+    
+</body>
+</html>
